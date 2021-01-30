@@ -22,10 +22,6 @@ td
 	background-color: #4a8ca2;
 	margin-left: 100px;
 }
-td:hover
-{
-	background-color: #d0d3d4;
-}
 
 th
 {
@@ -38,10 +34,8 @@ th
 tr
 {
 	border: 1px solid white;
-
 }
-tr :hover
-{
-	background-color:  #d0d3d4 ;
 
+tr:hover td{
+	background-color: #d0d3d4;
 }
